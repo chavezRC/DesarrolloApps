@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Clase1</string>
+    <string name="Question_text1">Ya te vaccinaste 1</string>
+    <string name="Question_text2">Ya te vaccinaste 2</string>
+    <string name="Question_text3">Ya te vaccinaste 3</string>
+    <string name="Question_text4">Ya te vaccinaste 4</string>
+    <string name="Question_text5">Ya te vaccinaste 5</string>
+    <string name="true_buton">verdader</string>
+    <string name="false_buton">falso</string>
+    <string name="nextBtn">Siguiente</string>
+    <string name="true_msg">Felicidades....</string>
+    <string name="false_nsg">Chale....</string>
+    <string name="answer_button">Muestrame la repuesta</string>
+    <string name="back_button">regresar</string>
+
+
+</resources>
