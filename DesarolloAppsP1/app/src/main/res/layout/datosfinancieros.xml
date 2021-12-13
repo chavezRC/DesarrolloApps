@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backapp"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/encabezado"
+
+        android:text="@string/Financiera"
+        android:textColor="@color/white"
+        android:textSize="25dp"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dfnombre"
+        android:hint="Nombre del ejercicio"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        android:background="@color/cardview_light_background"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dftelefono"
+        android:hint="Numero de phone"
+        android:padding="10dp"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dfcorreo"
+        android:hint="Correo"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:background="@android:color/white"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dfwebsite"
+        android:hint="web"
+        android:layout_marginTop="10dp"
+        android:inputType="textUri"
+        android:padding="10dp"
+        android:background="@android:color/white"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dfpasscrear"
+        android:hint="password"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:background="@android:color/white"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cantidad1"
+        android:hint="ingresa cantidad"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:background="@color/white"
+        android:padding="10dp"
+        ></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dfbtnConfirmar"
+        android:text="Enviar"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@color/design_default_color_secondary"></Button>
+
+
+
+
+
+
+</LinearLayout>

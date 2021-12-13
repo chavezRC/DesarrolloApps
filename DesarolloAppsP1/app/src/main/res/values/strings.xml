@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DesarolloAppsP1</string>
+    <string name="usuario">Usuario</string>
+    <string name="boton">Entrar!</string>
+    <string name="Contra">Contraseña</string>
+    <string name="ayuda">Olvidaste tu contraseña?</string>
+    <string name="entrar">Entrar</string>
+    <string name="Financiera">Demo financiera</string>
+    <string name="nombre_ivalido">Profavor ingresa un nombre valido</string>
+    <string name="telefono_invalido">Ingresa un telefono valido</string>
+    <string name="correoInvalido">Ingrese un correo valido</string>
+    <string name="passwordInvalido">"Un dato correcto"</string>
+    <string name="AyudaValidacion">Recuerda que los datos sera validados antes de ser enviados</string>
+    <string name="nombreEmpresaInvalido">Ingresa un nombre valido</string>
+    <string name="LinkAlmensaje"><a href="https://account.live.com/password/reset">Olvidaste tu contraseña</a></string>
+
+</resources>

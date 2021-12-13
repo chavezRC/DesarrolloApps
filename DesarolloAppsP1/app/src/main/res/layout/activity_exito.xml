@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backapp"
+    tools:context=".Exito">
+
+    <TextView
+        android:layout_width="223dp"
+        android:layout_height="192dp"
+        android:background="@drawable/ic_baseline_check_circle_24"
+        android:gravity="center"
+        android:layout_margin="100dp"
+        android:rotationX="-8"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Datos enviados con exito"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"></EditText>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Presiona para continuar"
+        android:gravity="center"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"></com.google.android.material.button.MaterialButton>
+
+
+</LinearLayout>

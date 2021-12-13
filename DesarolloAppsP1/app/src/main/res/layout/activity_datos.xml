@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backapp"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/encabezado"
+
+        android:text="Captura datos"
+        android:textColor="@color/white"
+        android:textSize="25dp"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dfnombreAuditor"
+        android:hint="Nombre de auditor"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        android:background="@color/cardview_light_background"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dfEmpresa"
+        android:hint="Nombre de la empresa"
+        android:drawableLeft="@drawable/ic_baseline_home_work_24"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        android:maxLength="10"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dfCantidad"
+        android:hint="Pasivos totales de la empresa"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_baseline_attach_money_24"
+        android:inputType="number"
+        android:padding="10dp"
+        android:background="@android:color/white"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dfActivos"
+        android:hint="Activos Totales"
+        android:drawableLeft="@drawable/ic_baseline_attach_money_24"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:padding="10dp"
+        android:background="@android:color/white"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dfCantidadBalance"
+        android:hint="Balance total"
+        android:drawableLeft="@drawable/ic_baseline_attach_money_24"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:padding="10dp"
+        android:background="@android:color/white"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dfEjercicioTotal"
+        android:hint="Total de Ejercicio"
+        android:drawableLeft="@drawable/ic_baseline_attach_money_24"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:padding="10dp"
+        android:background="@android:color/white"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dfpasscrear"
+        android:hint="password"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:background="@android:color/white"></EditText>
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/dfbtnConfirmar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="30dp"
+
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/design_default_color_secondary_variant"
+        android:text="Continuar..."
+        android:textColor="#000000"
+        ></com.google.android.material.button.MaterialButton>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="70dp"
+        android:gravity="center"
+        android:id="@+id/ayudaValidacion"
+        android:textStyle="bold"
+
+        android:text="@string/AyudaValidacion"
+        android:textColor="@color/white"
+        android:textSize="15dp"></TextView>
+
+
+
+
+
+
+
+</LinearLayout>
